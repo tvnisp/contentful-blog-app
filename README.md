@@ -1,40 +1,54 @@
-This project was bootstrapped with [Create Contentful App](https://github.com/contentful/create-contentful-app).
 
-## How to use
+# Contentful Blog App
 
-Execute create-contentful-app with npm, npx or yarn to bootstrap the example:
+The app
+![enter image description here](https://github.com/tvnisp/contentful-blog-app/blob/master/assets/the-app.png?raw=true)
 
+Sidebar
+![enter image description here](https://github.com/tvnisp/contentful-blog-app/blob/master/assets/sidebar.png?raw=true)
+
+## Description
+
+This is a custom blog app created using the Contentful App Framework. It allows users to create blog entries with ease.
+
+## Installation
+
+ 1. Code: Clone, change directory, install and run dev server:
 ```bash
-# npx
-npx create-contentful-app --example nextjs
+	git clone https://github.com/yourusername/contentful-blog-app.git
+	cd contentful-blog-app
+	bun install
+	npm run dev
+   ```
+   2. Contentful: 
+	   1. Create an account
+	   2. Create app definition
+	 ![enter image description here](https://github.com/tvnisp/contentful-blog-app/blob/master/assets/app%20definition.png?raw=true)
+	 3. Create a Blog content type
+	 ![enter image description here](https://github.com/tvnisp/contentful-blog-app/blob/master/assets/content-model.png?raw=true)
+	   4. Install app in the desired environment
+	   ![enter image description here](https://github.com/tvnisp/contentful-blog-app/blob/master/assets/install.png?raw=true)
+	   5. Add the sidebar in the content type
+	   ![enter image description here](https://github.com/tvnisp/contentful-blog-app/blob/master/assets/sidebar-add.png?raw=true)
 
-# npm
-npm init contentful-app -- --example nextjs
+## Usage
 
-# Yarn
-yarn create contentful-app --example nextjs
-```
+ 1. Access the app within Contentful.
+ 2. Create and manage your blog entries with ease.
 
-## Available Scripts
+## Contributing
+Contributions are welcome! If you'd like to contribute to this project, please follow our
 
-In the project directory, you can run:
+### Credits
+Panagiotis Gkionis
 
-#### `npm run dev`
+### Contact
+If you have any questions or feedback, feel free to reach out to us at
+panos.gkionis94@gmail.com
 
-Runs the app in development mode. Open your app to view it in the browser. The page will reload if you make edits.
+##### Additional Information
+-   [Contentful App Framework Documentation](https://contentful.com/docs/app-framework)
+-   [Contentful Documentation](https://contentful.com/docs)
 
-#### `npm run build`
-
-Builds the app for production to the `.next` folder. It correctly bundles Next in production mode and optimizes the build for the best performance. Your app is ready to be deployed!
-
-## Libraries to use
-
-To make your app look and feel like Contentful use the following libraries:
-
-- [Forma 36](https://f36.contentful.com/) – Contentful's design system
-- [Contentful Field Editors](https://www.contentful.com/developers/docs/extensibility/field-editors/) – Contentful's field editor React components
-- [React Apps Toolkit](https://www.contentful.com/developers/docs/extensibility/app-framework/react-apps-toolkit/) – Library to simplify build Contentful apps with React
-
-## Learn More
-
-[Read more](https://www.contentful.com/developers/docs/extensibility/app-framework/create-contentful-app/) and check out the video on how to use the CLI.
+Happy blogging!
+   
