@@ -47,7 +47,9 @@ If you have any questions or feedback, feel free to reach out to us at
 panos.gkionis94@gmail.com
 
 ##### Additional Information
--   [Contentful App Framework Documentation](https://contentful.com/docs/app-framework)
+-   [Contentful App Framework Documentation](https://www.contentful.com/developers/docs/extensibility/app-framework/)
+-   [Forma 36 (Contentful Components)](https://f36.contentful.com/)
+-   [Forma 36 Storybook](https://f36-storybook.contentful.com/)
 -   [Contentful Documentation](https://contentful.com/docs)
 
 Happy blogging!
