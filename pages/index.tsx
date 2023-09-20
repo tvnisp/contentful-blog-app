@@ -1,6 +1,5 @@
 import React, { useMemo } from 'react';
 import { locations } from '@contentful/app-sdk';
-import Field from '@/components/locations/Field';
 import Sidebar from '@/components/locations/Sidebar';
 import Page from '@/components/locations/Page';
 import { useSDK } from '@contentful/react-apps-toolkit';
