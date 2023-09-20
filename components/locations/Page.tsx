@@ -17,8 +17,9 @@ import {
 	KeyValueMap,
 } from 'contentful-management';
 import Button from '../Buttons/Button';
-import TabMapper, { TMenuTabs } from '../Blog/TabMapper/TabMapper';
-import MenuTabs from '../Blog/MenuTabs/MenuTabs';
+import MenuTabs from '../Blog/MenuTabs';
+import TabMapper from '../Blog/TabMapper';
+import { TMenuTabs } from '../Blog/TabMapper/TabMapper';
 
 type TBlogs = Collection<Entry, EntryProps<KeyValueMap>> | null;
 type TOrder = 'ascending' | 'descending';

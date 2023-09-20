@@ -24,7 +24,7 @@ export default function BlogCard(props: any) {
 			const environment = await space.getEnvironment(sdk.ids.environment);
 			const image = await environment.getAsset(imageId);
 			const imageUrl = image.fields.file[locale].url;
-			setImageUrl(`https:${imageUrl}?w=380&h=250`);
+			setImageUrl(`https:${imageUrl}?w=400&h=250`);
 		} catch (error) {
 			console.error('Error fetching image', error);
 		}
