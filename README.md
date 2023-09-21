@@ -15,7 +15,7 @@ This is a custom blog app created using the Contentful App Framework. It allows 
 
  1. Code: Clone, change directory, install and run dev server:
 ```bash
-	git clone https://github.com/yourusername/contentful-blog-app.git
+	git clone https://github.com/tvnisp/contentful-blog-app.git
 	cd contentful-blog-app
 	bun install
 	npm run dev
